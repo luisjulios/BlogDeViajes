@@ -15,6 +15,12 @@ p {
     font-size: 16px;
     line-height: 2;
 }
+.activo {
+    border: 5px solid yellow;
+}
+.fondorojo {
+    background-color: red;
+}
 .boton {
     background-color: #00b8e4;
     padding: 10px 30px;
@@ -56,6 +62,7 @@ p {
 .navegacion-principal {
     max-height: 0;
     transition: .5s;
+    display: none;
 }
 #nav:target {
     max-height: 800px;
