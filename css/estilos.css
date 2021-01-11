@@ -15,9 +15,7 @@ p {
     font-size: 16px;
     line-height: 2;
 }
-.activo {
-    border: 5px solid yellow;
-}
+
 .fondorojo {
     background-color: red;
 }
@@ -62,7 +60,6 @@ p {
 .navegacion-principal {
     max-height: 0;
     transition: .5s;
-    display: none;
 }
 #nav:target {
     max-height: 800px;
@@ -98,7 +95,7 @@ p {
     background-color: #00b8e4;
 }
 
-/**Conetendores principales**/
+/**Contendores principales**/
 
 .contenido-principal{
     margin-top: 40px;
@@ -121,6 +118,38 @@ p {
         margin-top: 40px;
 
     }
+}
+/**Nuestros servicios**/
+.servicios {
+    margin-top: 30px;
+}
+.servicios nav {
+    background-color: #00b8e4;
+}
+.servicios nav a {
+    padding: 10px;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+}
+.servicios nav a.activo {
+    background-color: #db008b;
+}
+.servicios nav a:hover {
+    background-color: #db008b;
+}
+.nuestros-servicios {
+    position: relative;
+    height: 200px;
+}
+.nuestros-servicios > div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #db008b;
+    color: #ffffff;
+    padding: 20px;
+    display: none;
 }
 
 /** Entradas de blog **/
